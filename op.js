@@ -25,8 +25,8 @@ num1.oninput=()=>{
  if(factor===0){
     res.innerHTML=(-b/(2*a));
  }else if(factor>0){
-x=(-b+Math.sqrt(factor));
-x2=(-b-Math.sqrt(factor));
+x=(-b+Math.sqrt(factor))(/2*a);
+x2=(-b-Math.sqrt(factor)(/2*a));
 res.innerHTML="x1:"+x.toFixed(2) ;
 res2.innerHTML=" x2:"+x2.toFixed(2);
  }else{
@@ -52,8 +52,8 @@ num2.oninput=()=>{
  if(factor===0){
     res.innerHTML=(-b/(2*a));
  }else if(factor>0){
-x=(-b+Math.sqrt(factor));
-x2=(-b-Math.sqrt(factor));
+x=(-b+Math.sqrt(factor))(/2*a);
+x2=(-b-Math.sqrt(factor))(/2*a);
 res.innerHTML="x1:"+x.toFixed(2) ;
 res2.innerHTML=" x2:"+x2.toFixed(2);
  }else{
@@ -77,8 +77,8 @@ num3.oninput=()=>{
  if(factor===0){
     res.innerHTML=(-b/(2*a));
  }else if(factor>0){
-x=(-b+Math.sqrt(factor));
-x2=(-b-Math.sqrt(factor));
+x=(-b+Math.sqrt(factor))(/2*a);
+x2=(-b-Math.sqrt(factor))(/2*a);
 res.innerHTML="x1:"+x.toFixed(2) ;
 res2.innerHTML=" x2:"+x2.toFixed(2);
  }else{
