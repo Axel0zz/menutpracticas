@@ -1,0 +1,168 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+  transition: 1s all ease;
+}
+
+body{
+  text-align: center;
+}
+
+input{
+  border-radius: 5px 5px 5px 5px;
+}
+
+input:focus{
+  background: lightblue;
+  box-shadow: 10px 10px 10px black;
+}
+
+p{
+  color:white;
+}
+
+
+.caja{
+  width: 50%;
+  height: 500px;
+  background: rgb(34, 193, 195);
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  margin: auto;
+  padding: 50px;
+  border-radius:20px 20px 20px 20px;
+}
+
+
+#res{
+  position: absolute;
+  padding: 50px;
+  top: 480px;
+  left: 650px;
+}
+
+
+
+
+
+.bot {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  width: 40px;
+  height: 40px;
+  background: grey;
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 620px;
+}
+
+.bot2{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+transition: box-shadow 0.3s ease;
+width: 40px;
+height: 40px;
+background: grey;
+color: white;
+position: absolute;
+top: 400px;
+left: 670px;
+}
+.bot3 {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  width: 40px;
+  height: 40px;
+  background: grey;
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 720px;
+}
+.bot4 {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  width: 40px;
+  height: 40px;
+  background: grey;
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 770px;
+}
+.bot5 {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  width: 60px;
+  height: 40px;
+  background: grey;
+  color: white;
+  position: absolute;
+  top: 450px;
+  left: 600px;
+}
+.bot6 {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  width: 60px;
+  height: 40px;
+  background: grey;
+  color: white;
+  position: absolute;
+  top: 450px;
+  left: 690px;
+}
+.bot7 {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  width: 60px;
+  height: 40px;
+  background: grey;
+  color: white;
+  position: absolute;
+  top: 450px;
+  left: 780px;
+}
+
+
+
+button:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  background: darkcyan;
+}
+ 
+ 
+ 
+ 
+ 
+.num1{
+  width: 200px;
+  height: 30px;
+}
+.num2 {
+  width: 200px;
+  height: 30px;
+}
+
+
+
+
+#reg{
+  background: rgb(10, 216, 223);
+  height: 25px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 2px solid black;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+#reg:hover{
+  box-shadow: 0 0 5px white;
+  border: 1px solid black;
+  background: rgb(0, 183, 255);
+  color: black;
+  transform: scale(1.2);
+}

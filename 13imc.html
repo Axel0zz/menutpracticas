@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="imc.css">
+</head>
+
+<body class="text-center">
+<nav class="navbar bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <h1> Calculadora IMC</h1>
+  </div>
+</nav><br><br>
+<h2>Peso</h2>
+<input type="range" min="10" max="150" value="1" id="peso" class="form-control m-auto w-75">
+
+<div id="peso1">
+  1
+</div><br><br>
+
+<h2>altura</h2>
+<input type="range" value="1" min="50" max="250" id="altura" class="form-control m-auto w-75">
+
+<div id="altura1">
+  
+</div><br><br>
+
+<h3>IMC</h3>
+
+<div id="spinner" class="m-auto">
+  
+</div>
+<div id="res" class="m-auto">
+</div><br><br>
+
+<div id="tabla">
+</div>
+
+<table class="table table-striped table-bordered table-hover">
+  
+  <tr bgcolor="blue" id="f1">
+    <td>Infrapeso</td>
+    <td>Menor a 18.5</td>
+  </tr>
+
+  <tr bgcolor="green" id="f2">
+    <td>Normal</td>
+    <td>18.5 a 24.9</td>
+  </tr>
+
+  <tr bgcolor="yellow" id="f3">
+    <td>Sobrepeso</td> 
+    <td>25 a 29.9</td>
+  </tr>
+
+  <tr bgcolor="orange" id="f4">
+    <td>Obesidad I</td>
+    <td>30 a 34.9</td>
+  </tr>
+
+  <tr bgcolor="red" id="f5">
+    <td>Obesidad II</td>
+    <td>35 a 39.9</td>
+  </tr>
+
+  <tr bgcolor="purple" id="f6">
+    <td>Obesidad III</td>
+    <td>Mayor a 40</td>
+  </tr>
+
+</table>
+
+<script src="imc.js"></script>
+</body>
+
+</html>

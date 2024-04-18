@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="signo.css">
+</head>
+<body class="text-center">
+    <h1>Signos Zodiacales</h1><br><br>
+
+    <h2>DIA</h2>
+    <input type="range" min="1" max="30" id="dia" class="form-control m-auto w-75 ">
+    <div id="dia1"></div><br><br>
+
+    <h2>MES</h2>
+    <select name="mes" id="mes" class="w-75 form-control m-auto">
+        <option value="0">Selecciona</option>
+        <option value="1">Enero</option>
+        <option value="2">Febrero</option>
+        <option value="3">Marzo</option>
+        <option value="4">Abril</option>
+        <option value="5">Mayo</option>
+        <option value="6">Junio</option>
+        <option value="7">Julio</option>
+        <option value="8">Agosto</option>
+        <option value="9">Septiembre</option>
+        <option value="10">Octubre</option>
+        <option value="11">Noviembre</option>
+        <option value="12">Diciembre</option>
+    </select><br><br>
+    <h2>Fecha</h2>
+    <div id="spinner"></div>
+    <div id="res"></div><br>
+    <div id="img"></div>
+    <script src="signo.js"></script>
+</body>
+</html>

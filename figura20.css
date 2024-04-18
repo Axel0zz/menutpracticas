@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 1s all ease;
+}
+
+#cajita{
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  background: gray;
+}
+
+#caja1{
+  width: 900px;
+  height: 900px;
+  margin: auto;
+  border: 3px solid black;
+  background: none;
+} 
+
+#reg{
+  background: rgb(223, 10, 195);
+  height: 25px;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 2px solid black;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+#reg:hover{
+  box-shadow: 0 0 5px white;
+  border: 1px solid black;
+  background: rgb(204, 0, 255);
+  color: black;
+  transform: scale(1.2);
+}
+body{
+  background: rgb(195,34,59);
+background: linear-gradient(0deg, rgba(195,34,59,1) 0%, rgba(147,37,215,1) 100%);
+}
+td{
+  color: white;
+}

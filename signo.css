@@ -1,0 +1,26 @@
+body{
+    background: rgb(53,34,195);
+}
+input{
+    background: purple;
+}
+h2{
+    color: white;
+}
+#res{color: white;}
+#dia1{
+    color: white;
+}
+h1{
+    color:white;
+}
+option{
+    background: rgb(99, 11, 240);
+    color: white;
+}
+#dia{
+    background: lightblue;
+}
+#mes{
+    background: lightblue;
+}

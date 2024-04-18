@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s all ease;
+  }
+  
+  #cajita{
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    background: gray;
+  }
+  body{
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #11f124, #e7e313);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #11f124, #e7e313); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  #reg{
+    background: rgb(4, 177, 4);
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  #reg:hover{
+    box-shadow: 0 0 5px white;
+    border: 1px solid black;
+    background: greenyellow;
+    color: black;
+    transform: scale(1.2);
+}
