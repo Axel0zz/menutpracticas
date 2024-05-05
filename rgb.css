@@ -1,0 +1,71 @@
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      transition: 2s all ease;
+    }
+    
+    #resultado{
+      width: 100px;
+      height: 100px;
+      border: 2px solid black;
+    }
+    
+    #rgb{
+      width: 150px;
+      height: 50px;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    
+    #hexa{
+      width: 100px;
+      height: 50px;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    
+    #vrojo{
+      color:white;
+    }
+    #vverde{
+      color: white;
+    }
+    #vazul{
+      color: white;
+    }
+    
+    #r{
+        color: white;
+    }
+    
+     #v{
+        color: white;
+    }
+    #a{
+      color: white;
+    }
+    #body{
+        background: rgb(82, 82, 82);
+    }
+
+    #rojo{
+        background: red;
+    }
+    #verde{
+        background: green;
+    }
+    #azul{
+        background: blue;
+    }
+    #titulo{
+        color: white;
+    }
+    
